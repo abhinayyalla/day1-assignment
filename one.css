@@ -1,0 +1,42 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+.main{
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+
+.secondmain{
+    height:300px;
+    width: 100%;
+    background-color:yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.one_child{
+    width: 50px;
+    height: 50px;
+    background-color:green;
+
+}
+.two_child{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+.third_child{
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+}
